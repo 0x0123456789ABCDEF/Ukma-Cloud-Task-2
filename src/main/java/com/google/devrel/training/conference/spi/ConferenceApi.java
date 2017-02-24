@@ -51,10 +51,10 @@ public class ConferenceApi {
     // TODO 2 Pass the User parameter
     public Profile saveProfile(ProfileForm profileForm, User user) throws UnauthorizedException {
 
-        String userId = null;
-        String mainEmail = null;
-        String displayName = "Your name will go here";
-        TeeShirtSize teeShirtSize = TeeShirtSize.NOT_SPECIFIED;
+        String userId;
+        String mainEmail;
+        String displayName;
+        TeeShirtSize teeShirtSize;
 
         // TODO 2
         // If the user is not logged in, throw an UnauthorizedException
