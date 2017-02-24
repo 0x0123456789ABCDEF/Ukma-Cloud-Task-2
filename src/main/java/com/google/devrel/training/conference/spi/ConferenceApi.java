@@ -81,7 +81,7 @@ public class ConferenceApi {
         // TODO 2
         // If the displayName is null, set it to default value based on the user's email
         // by calling extractDefaultDisplayNameFromEmail(...)
-        if(displayName == null) {
+        if(displayName == null || displayName.isEmpty()) {
             displayName = extractDefaultDisplayNameFromEmail(mainEmail);
         }
 
