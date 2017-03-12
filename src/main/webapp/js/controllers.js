@@ -61,6 +61,7 @@ conferenceApp.controllers.controller('MyProfileCtrl',
                     execute(function (resp) {
                         $scope.$apply(function () {
                             $scope.loading = false;
+                            console.log(resp)
                             if (resp.error) {
                                 // Failed to get a user profile.
                             } else {
