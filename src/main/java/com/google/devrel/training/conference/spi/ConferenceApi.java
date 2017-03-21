@@ -113,7 +113,7 @@ public class ConferenceApi {
         }
 
         if(profile.getTeeShirtSize() == null) {
-            profile.update(profile.getMainEmail(), TeeShirtSize.NOT_SPECIFIED);
+            profile.update(profile.getDisplayName(), TeeShirtSize.NOT_SPECIFIED);
         }
 
         // TODO 3 (In Lesson 3)
